@@ -60,6 +60,15 @@ a:hover{
     background:linear-gradient(135deg, rgb(16,215,174) 0%, rgb(255,106,213) 100%)0 100%/100% 1px no-repeat;
 }
 
+}
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  position: -webkit-sticky;
+  right: 0;
+}
 /*text*/
 
 p:first-of-type{
@@ -420,6 +429,23 @@ main{
 <p>or some paragraphs</p>
 </div>
 
+<div class="navbar">
+  <a href="#" class="active"><img class="w3-image"src="https://u.cubeupload.com/Gruwpy/babyhouse.png" width="40" height="40"></a>
+
+  <a href="https://discord.gg/4484XVk23S"><img class="w3-image"src="https://u.cubeupload.com/Gruwpy/concoursdiscordcarte.png" width="40" height="40"></a>
+  <a href="https://cubeupload.com">
+ 
+<img class="w3-image"src="https://u.cubeupload.com/Gruwpy/cubelogobigblue.png" width="40" height="40">
+<a href="https://gruwpy.github.io/xatframetest1/">
+
+<img class="w3-image"src="https://u.cubeupload.com/Gruwpy/space3.png" width="40" height="40">
+
+ 
+<a href="https://xat.me/Chaii"> <img class="w3-image"src="https://u.cubeupload.com/Gruwpy/chai.png" width="40" height="40">
+  
+  <a href="https://xat.com/animeandvamps" class="right"><img class="w3-image"src="https://u.cubeupload.com/Gruwpy/tradeiconxat.png" width="40" height="40"></a>
+  
+  <a href="https://photobucket.com/u/bandos4eva"> <img class="w3-image"src="https://u.cubeupload.com/Gruwpy/photobucket.png" width="40" height="40">
 </div>
 </div>
 <!----/END---->
